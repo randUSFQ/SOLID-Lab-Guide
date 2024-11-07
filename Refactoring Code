@@ -1,0 +1,17 @@
+// ReceiptPrinter.java
+public class ReceiptPrinter {
+    public void printReceipt(Order order) {
+        System.out.println("Receipt:");
+        for (Product product : order.getProducts()) {
+            System.out.println(product.getName() + " - $" + product.getPrice());
+        }
+        System.out.println("Total: $" + order.calculateTotal());
+    }
+}
+
+// OrderRepository.java
+public class OrderRepository {
+    public void save(Order order) {
+        System.out.println("Saving order to database...");
+    }
+}
