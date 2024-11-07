@@ -30,3 +30,11 @@ public class Product {
 }
 
 
+## Tareas y Actividades
+### Tarea 1: Análisis de Código y Violaciones SOLID
+Actividad: Revisar el código del sistema de e-commerce y detectar violaciones a los principios SOLID.
+Resultado Esperado: Un informe técnico que enumere y explique las violaciones a SOLID encontradas.
+###  Tarea 2: Refactorización de Código para Responsabilidad Única (SRP)
+Actividad: Dividir responsabilidades en la clase Order para cumplir con SRP.
+Resultado Esperado: Un código modular donde Order sólo gestiona productos, mientras que ReceiptPrinter y OrderRepository manejan la impresión y el almacenamiento, respectivamente.
+
