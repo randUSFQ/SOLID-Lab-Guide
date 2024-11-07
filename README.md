@@ -8,27 +8,6 @@ Desarrollar habilidades para aplicar los principios SOLID en el diseño de softw
 2. Refactorizar código existente de un sistema de e-commerce para cumplir con los principios SOLID.
 3. Evaluar el impacto de SOLID en la modularidad y extensibilidad del sistema de e-commerce.
 
----
-
-## Código Inicial del Sistema de E-Commerce (Simplificado en Java)
-
-Ubicado en el directorio `src/ecommerce/`.
-
-### `Product.java`
-```java
-public class Product {
-    private String name;
-    private double price;
-
-    public Product(String name, double price) {
-        this.name = name;
-        this.price = price;
-    }
-
-    public String getName() { return name; }
-    public double getPrice() { return price; }
-}
-
 
 ## Tareas y Actividades
 ### Tarea 1: Análisis de Código y Violaciones SOLID
